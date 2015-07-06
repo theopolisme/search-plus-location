@@ -1,0 +1,103 @@
+@import "../../node_modules/leaflet/dist/leaflet.css";
+@import "../../node_modules/leaflet.markercluster/dist/MarkerCluster.css";
+@import "../../node_modules/leaflet.markercluster/dist/MarkerCluster.Default.css";
+@import "../../node_modules/leaflet.timeline/dist/leaflet.timeline.css";
+
+html, body, #app, .map {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  font-size: 15px;
+  line-height: 20px;
+  color: white;
+  background: url('../../background.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: black;
+}
+
+h2 {
+  font-size: 19px;
+}
+
+a {
+  color: white;
+}
+
+.dropzone.active {
+  background-color: white;
+  border-style: solid;
+  color: black;
+}
+
+.map {
+  background-color: black;
+}
+
+.query-marker-label {
+  width: 100px !important;
+  font-size: 1.1em;
+  height: auto !important;
+  padding: 4px;
+  border-radius: 5px;
+  background: rgba(0,0,0,0.9);
+}
+
+.leaflet-top {
+  top: 56px !important;
+}
+
+.popup-content, .popup-content a {
+  color: black;
+}
+
+.popup-content .query {
+  font-weight: bold;
+}
+
+.leaflet-bottom {
+  width: 100%;
+}
+
+.leaflet-bottom .leaflet-control.leaflet-timeline-controls {
+  width: 95%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  float: none;
+  background-color: rgb(69, 69, 69);
+  color: white;
+  display: flex;
+}
+
+.leaflet-timeline-controls .button-container {
+  width: 150px;
+}
+
+.leaflet-timeline-controls .button-container button {
+  width: 30%;
+  border: none;
+  background-color: white;
+  border-radius: 4px;
+  margin-right: 5px;
+  box-sizing: border-box;
+}
+
+.leaflet-timeline-controls input[type=range] {
+  display: block;
+  margin: 0 15px;
+  flex-grow: 100;
+  width: auto !important;
+}
+
+.leaflet-timeline-controls output {
+  width: 130px;
+}
