@@ -7,6 +7,14 @@ search-plus-location
 
 Built with [React](http://facebook.github.io/react/), [Leaflet](http://leafletjs.com/), [Material-UI](http://material-ui.com/#/), and a bit more (see `package.json`).
 
+## Some fairly generic screenshots
+
+In case you don't have your own history to upload, here's what the viewer itself looks like...
+
+![Cluster view](https://cloud.githubusercontent.com/assets/1410202/8514842/45522ca2-235d-11e5-9562-1a1dc5e18970.png)
+
+![Timeline view](https://cloud.githubusercontent.com/assets/1410202/8514843/4564234e-235d-11e5-8e0e-cc54383bd5f2.png)
+
 ## License
 
 ```
