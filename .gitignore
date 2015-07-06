@@ -1,4 +1,5 @@
 node_modules
 build
 test_data
+.publish
 npm-debug.log
